@@ -3,7 +3,7 @@ region = "ap-south-1"
 }
 
 resource "aws_instance" "AWS Server"{
-ami = "ami-008b85aa3ff5c1b02"
+ami = "ami-0ded8326293d3201b"
 instance_type = "t2.micro"
 key_name = "ansible"
 security_groups = ["launch-wizard-2"]
